@@ -1,0 +1,124 @@
+/*header*/
+.nav{
+   display:flex;
+
+   background-color: blue;
+   border-radius: 5px;
+}
+.Logo{
+    display: flex;
+    background:url(../PortfolioCoding/images/Logo1.png);
+    height:90px;
+    width:20%;
+    background-size:195px 95px;
+    margin: 5px 5px 5px 5px;
+    background-repeat: no-repeat;
+    background-image: center;
+    border-radius: 5px 5px 5px 5px;
+
+ 
+}
+.center{
+    display:flex;
+    height:70px;
+    width:65%;
+}
+.menu {
+   display:flex;
+   justify-content: space-around;
+   align-items: flex-end;
+   width:25%;
+   height: 85px;
+ 
+}
+.menu a{
+    color:white;
+    text-decoration: none;
+}
+/*body*/
+#bodyCategory{
+    display:flex;
+   width:100%;
+   background-color: cadetblue;
+}
+#asideContent{
+    display: flex;
+    flex-direction: column;
+    height:90vh;
+    width:20%;
+    background-color: darkgrey;
+}
+.asideLeftContent{
+    
+    background-size: cover;
+   
+   padding-left:10px ;
+    
+}
+img{
+    background-size: cover;
+    height:20vh;
+    margin:20px 20px 10px 20px;
+    border:20px solid black;
+    border-radius: 10px;
+}
+#mainRightContent{
+    display: grid;
+    width:100%;
+    
+  
+    grid-template-columns: 500px 500px;
+    
+  grid-gap: 30px;
+    background-color:whitesmoke;
+    padding: 30px;
+    /*grid-template-areas: "card1"
+  "card2 "
+  "card3"
+  "card4"
+  "card5"
+  "card6";*/
+  
+
+}
+.card1{
+    
+    background: url("../PortfolioCoding/images/PantryChef.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+  
+    
+    
+}
+
+.card2
+{
+    background: url("../PortfolioCoding/images/Toysfortots.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}  
+.outline{
+    display: flex;
+   
+    justify-content:flex-end ;
+ 
+}
+
+#footer{
+    
+    
+    height:100px;
+   
+}
+.icons{
+  
+    display: flex;
+   background-color:blue;
+   height:100px;
+   align-items: center;
+   justify-content: space-evenly;
+   color:whitesmoke;
+}
+
