@@ -2,12 +2,12 @@
 .nav{
    display:flex;
 
-   background-color: blue;
+   background-color:#3F66C9;
    border-radius: 5px;
 }
 .Logo{
     display: flex;
-    background:url(../PortfolioCoding/images/Logo1.png);
+    background:url(../Portfolio_landing/images/Logo1.png);
     height:90px;
     width:20%;
     background-size:195px 95px;
@@ -39,21 +39,30 @@
 #bodyCategory{
     display:flex;
    width:100%;
-   background-color: cadetblue;
+ 
 }
 #asideContent{
     display: flex;
     flex-direction: column;
-    height:90vh;
-    width:20%;
-    background-color: darkgrey;
+    height:80vh;
+    width:30%;
+    background-color: rgb(207, 205, 218);
+    border-radius: 20px;
 }
 .asideLeftContent{
     
-    background-size: cover;
-   
+    
    padding-left:10px ;
     
+}
+
+ h1{
+    padding-left:10px 
+ }
+.asideLeftContentBottom {
+    display: flex;
+  justify-content: space-around;
+  
 }
 img{
     background-size: cover;
@@ -64,7 +73,7 @@ img{
 }
 #mainRightContent{
     display: grid;
-    width:100%;
+    width:90%;
     
   
     grid-template-columns: 500px 500px;
@@ -81,30 +90,36 @@ img{
   
 
 }
+
 .card1{
-    
-    background: url("../PortfolioCoding/images/PantryChef.png");
+  
+    background: url("../Portfolio_landing/images/PantryChef.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-  
+  border-radius: 30px;
     
     
 }
+/*.style{
+    margin-top: 350px;
+    height: 50px;
+    display:grid;
+    background-color:rgba(0,0,0,0.7) ;
+    align-items: center;
+    color: white;
+    padding-left:10px ;
+}*/
 
 .card2
 {
-    background: url("../PortfolioCoding/images/Toysfortots.png");
+    background: url("../Portfolio_landing/images/Toysfortots.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
+    border-radius: 30px;
 }  
-.outline{
-    display: flex;
-   
-    justify-content:flex-end ;
- 
-}
+/*footer*/
 
 #footer{
     
@@ -115,10 +130,14 @@ img{
 .icons{
   
     display: flex;
-   background-color:blue;
+   background-color:#3F66C9;
    height:100px;
    align-items: center;
    justify-content: space-evenly;
    color:whitesmoke;
 }
-
+.footer4{
+    display: flex;
+    justify-self: center;
+    height:50px;
+}
