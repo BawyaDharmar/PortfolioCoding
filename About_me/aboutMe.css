@@ -1,0 +1,81 @@
+/*header*/
+.nav{
+    display:flex;
+ 
+    background-color: #3F66C9;
+    border-radius: 5px;
+ }
+ .Logo{
+     display: flex;
+     background:url(../About_me/images/Logo1.png);
+     height:90px;
+     width:20%;
+     background-size:195px 95px;
+     margin: 5px 5px 5px 5px;
+     background-repeat: no-repeat;
+     background-image: center;
+     border-radius: 5px 5px 5px 5px;
+ 
+  
+ }
+ .center{
+     display:flex;
+     height:70px;
+     width:65%;
+ }
+ .menu {
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width:25%;
+    height: 85px;
+  
+ }
+ .menu a{
+     color:white;
+     text-decoration: none;
+ }
+ /*body*/
+
+ .wrapper{
+display: flex;
+min-height: 70vh;
+justify-content: center;
+align-items: center;
+ }
+
+ img{
+    height: 300px;
+    width: 300px;
+    border-radius: 100px;
+    margin: 20px;
+}
+
+ .topContent{
+     height: 100px;
+     width: 400px;
+     min-height: fit-content;
+     line-height: 110%;
+ }
+ .bottomContent{
+     padding-top: 30px;
+    height: 100px;
+    width: 400px;
+    line-height: 110%;
+}
+ /*Footer*/
+ #footer{
+    
+    
+    height:100px;
+   
+}
+.icons{
+  
+    display: flex;
+   background-color:#3F66C9;
+   height:100px;
+   align-items: center;
+   justify-content: space-evenly;
+   color:whitesmoke;
+}
