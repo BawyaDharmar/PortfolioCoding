@@ -18,6 +18,12 @@
 
  
 }
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;}
+
 .center{
     display:flex;
     height:70px;
@@ -27,77 +33,47 @@
    display:flex;
    justify-content: space-around;
    align-items: flex-end;
-   width:25%;
+   width:30%;
    height: 85px;
  
 }
 .menu a{
     color:white;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 /*body*/
-#bodyCategory{
-    display:flex;
-   width:100%;
- 
-}
-#asideContent{
+#bodyContent{
     display: flex;
-    flex-direction: column;
-    height:80vh;
-    width:30%;
-    background-color: rgb(207, 205, 218);
-    border-radius: 20px;
-}
-.asideLeftContent{
-    
-    
-   padding-left:10px ;
     
 }
-
- h1{
-    padding-left:10px 
- }
-.asideLeftContentBottom {
+.asideContent{
+    width: 20%;
+    margin: 20px;
+}
+.asideLeftContentBottom{
     display: flex;
-  justify-content: space-around;
-  
-}
-img{
-    background-size: cover;
-    height:20vh;
-    margin:20px 20px 10px 20px;
-    border:20px solid black;
-    border-radius: 10px;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif; 
 }
 #mainRightContent{
-    display: grid;
-    width:90%;
-    
-  
-    grid-template-columns: 500px 500px;
-    
-  grid-gap: 30px;
-    background-color:whitesmoke;
-    padding: 30px;
-    /*grid-template-areas: "card1"
-  "card2 "
-  "card3"
-  "card4"
-  "card5"
-  "card6";*/
-  
-
+   display:flex;
+height: 80vh;
+  width:90%;
 }
 
+
 .card1{
-  
+
     background: url("../Portfolio_landing/images/PantryChef.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 60%;
+    width:50%;
   border-radius: 30px;
+  padding: 20px;
+  margin: 20px;
     
     
 }
@@ -113,31 +89,114 @@ img{
 
 .card2
 {
+    
     background: url("../Portfolio_landing/images/Toysfortots.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 60%;
+    width:60%;
     border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
 }  
 /*footer*/
 
 #footer{
-    
-    
-    height:100px;
    
+  
+    height:100px;
 }
 .icons{
   
-    display: flex;
+   display: flex;
    background-color:#3F66C9;
    height:100px;
    align-items: center;
    justify-content: space-evenly;
    color:whitesmoke;
+   font-family: 'Poppins', sans-serif;
 }
 .footer4{
     display: flex;
     justify-self: center;
     height:50px;
+    
 }
+@media only screen and (max-width: 600px) {
+    .nav{
+        display:flex;
+     
+        background-color:#3F66C9;
+        border-radius: 5px;
+     }
+     .Logo{
+         display: flex;
+         background:url(../Portfolio_landing/images/Logo1.png);
+         height:90px;
+         width:40%;
+         background-size:80px 90px;
+         
+       
+       
+     
+      
+     }
+    img{
+        padding-left: 20px;
+    }
+     
+    #bodyContent{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    h1{
+       display: none;
+    }
+    .asideLeftContent p{
+        display: flex;
+        background-color: gold;
+width: 270px;
+border-radius: 10px;
+padding: 5px;
+    }
+    .asideLeftContentBottom{
+        display: none;
+    }
+
+    #mainRightContent{
+        display:flex;
+        flex-direction: column;
+    
+       
+     }
+    
+     .card1{
+
+        background: url("../Portfolio_landing/images/PantryChef.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80%;
+        width:90%;
+      border-radius: 30px;
+     
+        
+        
+    }
+ 
+    
+    .card2
+    {
+        
+        background: url("../Portfolio_landing/images/Toysfortots.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80%;
+        width:90%;
+        border-radius: 30px;
+        padding: 20px;
+        margin: 20px;
+    }  
+   
+} 
