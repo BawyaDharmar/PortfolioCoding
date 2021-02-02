@@ -34,6 +34,8 @@
  .menu a{
      color:white;
      text-decoration: none;
+     font-family: 'Poppins', sans-serif;
+     font-weight: bold;
  }
  /*body*/
 
@@ -52,16 +54,18 @@ align-items: center;
 }
 
  .topContent{
-     height: 100px;
-     width: 400px;
+     height: 170px;
+     width: 450px;
      min-height: fit-content;
-     line-height: 110%;
+     line-height: 150%;
+     font-family: 'Montserrat', sans-serif; 
  }
  .bottomContent{
      padding-top: 30px;
     height: 100px;
     width: 400px;
-    line-height: 110%;
+    line-height: 150%;
+    font-family: 'Montserrat', sans-serif; 
 }
  /*Footer*/
  #footer{
